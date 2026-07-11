@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --env URL=http://localhost:4000",
+    "test-prd": "cypress run --env URL=http://localhost:prd"
   },
   "repository": {
     "type": "git",
