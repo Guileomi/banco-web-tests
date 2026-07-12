@@ -1,0 +1,21 @@
+# Cypress artifacts
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Relatórios de teste
+cypress/reports/
+cypress/results/
+mochawesome-report/
+
+# Dependências
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
