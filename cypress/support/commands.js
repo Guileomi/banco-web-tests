@@ -30,3 +30,6 @@ import './commands/common'
 // Comandos customizados para funcionalidades de login e transferência
 import './commands/login'
 import './commands/transferencia'
+
+// Importando o plugin mochawesome para gerar relatórios de teste
+import 'cypress-mochawesome-reporter/register';
